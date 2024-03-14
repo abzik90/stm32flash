@@ -1,5 +1,5 @@
 PREFIX = /usr/local
-CFLAGS += -Wall -g
+CFLAGS += -Wall -g -D __ANDROID__
 
 INSTALL = install
 
